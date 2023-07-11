@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="myOCATDataSet" targetNamespace="http://www.tempuri.org/myOCATDataSet.xsd" xmlns:mstns="http://www.tempuri.org/myOCATDataSet.xsd" xmlns="http://www.tempuri.org/myOCATDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="myOCATDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="myOCATDataSet" msprop:Generator_UserDSName="myOCATDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DOSR_STUDY" msprop:Generator_TableClassName="DOSR_STUDYDataTable" msprop:Generator_TableVarName="tableDOSR_STUDY" msprop:Generator_TablePropName="DOSR_STUDY" msprop:Generator_RowDeletingName="DOSR_STUDYRowDeleting" msprop:Generator_RowChangingName="DOSR_STUDYRowChanging" msprop:Generator_RowEvHandlerName="DOSR_STUDYRowChangeEventHandler" msprop:Generator_RowDeletedName="DOSR_STUDYRowDeleted" msprop:Generator_UserTableName="DOSR_STUDY" msprop:Generator_RowChangedName="DOSR_STUDYRowChanged" msprop:Generator_RowEvArgName="DOSR_STUDYRowChangeEvent" msprop:Generator_RowClassName="DOSR_STUDYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STUDY_REF" msprop:Generator_ColumnVarNameInTable="columnSTUDY_REF" msprop:Generator_ColumnPropNameInRow="STUDY_REF" msprop:Generator_ColumnPropNameInTable="STUDY_REFColumn" msprop:Generator_UserColumnName="STUDY_REF" type="xs:decimal" />
+              <xs:element name="ACCESSION_NUMBER" msprop:Generator_ColumnVarNameInTable="columnACCESSION_NUMBER" msprop:Generator_ColumnPropNameInRow="ACCESSION_NUMBER" msprop:Generator_ColumnPropNameInTable="ACCESSION_NUMBERColumn" msprop:Generator_UserColumnName="ACCESSION_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_ID" msprop:Generator_ColumnVarNameInTable="columnPATIENT_ID" msprop:Generator_ColumnPropNameInRow="PATIENT_ID" msprop:Generator_ColumnPropNameInTable="PATIENT_IDColumn" msprop:Generator_UserColumnName="PATIENT_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_NAME" msprop:Generator_ColumnVarNameInTable="columnPATIENT_NAME" msprop:Generator_ColumnPropNameInRow="PATIENT_NAME" msprop:Generator_ColumnPropNameInTable="PATIENT_NAMEColumn" msprop:Generator_UserColumnName="PATIENT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_SEX" msprop:Generator_ColumnVarNameInTable="columnPATIENT_SEX" msprop:Generator_ColumnPropNameInRow="PATIENT_SEX" msprop:Generator_ColumnPropNameInTable="PATIENT_SEXColumn" msprop:Generator_UserColumnName="PATIENT_SEX" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_BIRTH_DATE" msprop:Generator_ColumnVarNameInTable="columnPATIENT_BIRTH_DATE" msprop:Generator_ColumnPropNameInRow="PATIENT_BIRTH_DATE" msprop:Generator_ColumnPropNameInTable="PATIENT_BIRTH_DATEColumn" msprop:Generator_UserColumnName="PATIENT_BIRTH_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_AGE" msprop:Generator_ColumnVarNameInTable="columnPATIENT_AGE" msprop:Generator_ColumnPropNameInRow="PATIENT_AGE" msprop:Generator_ColumnPropNameInTable="PATIENT_AGEColumn" msprop:Generator_UserColumnName="PATIENT_AGE" type="xs:string" minOccurs="0" />
+              <xs:element name="STUDY_DATE" msprop:Generator_ColumnVarNameInTable="columnSTUDY_DATE" msprop:Generator_ColumnPropNameInRow="STUDY_DATE" msprop:Generator_ColumnPropNameInTable="STUDY_DATEColumn" msprop:Generator_UserColumnName="STUDY_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="MODALITY" msprop:Generator_ColumnVarNameInTable="columnMODALITY" msprop:Generator_ColumnPropNameInRow="MODALITY" msprop:Generator_ColumnPropNameInTable="MODALITYColumn" msprop:Generator_UserColumnName="MODALITY" type="xs:string" minOccurs="0" />
+              <xs:element name="INSTITUTION_NAME" msprop:Generator_ColumnVarNameInTable="columnINSTITUTION_NAME" msprop:Generator_ColumnPropNameInRow="INSTITUTION_NAME" msprop:Generator_ColumnPropNameInTable="INSTITUTION_NAMEColumn" msprop:Generator_UserColumnName="INSTITUTION_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="STUDY_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnSTUDY_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="STUDY_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="STUDY_DESCRIPTIONColumn" msprop:Generator_UserColumnName="STUDY_DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="STUDY_COMMENTS" msprop:Generator_ColumnVarNameInTable="columnSTUDY_COMMENTS" msprop:Generator_ColumnPropNameInRow="STUDY_COMMENTS" msprop:Generator_ColumnPropNameInTable="STUDY_COMMENTSColumn" msprop:Generator_UserColumnName="STUDY_COMMENTS" type="xs:string" minOccurs="0" />
+              <xs:element name="PATIENT_HISTORY" msprop:Generator_ColumnVarNameInTable="columnPATIENT_HISTORY" msprop:Generator_ColumnPropNameInRow="PATIENT_HISTORY" msprop:Generator_ColumnPropNameInTable="PATIENT_HISTORYColumn" msprop:Generator_UserColumnName="PATIENT_HISTORY" type="xs:string" minOccurs="0" />
+              <xs:element name="REFERRING_PHYSICIAN" msprop:Generator_ColumnVarNameInTable="columnREFERRING_PHYSICIAN" msprop:Generator_ColumnPropNameInRow="REFERRING_PHYSICIAN" msprop:Generator_ColumnPropNameInTable="REFERRING_PHYSICIANColumn" msprop:Generator_UserColumnName="REFERRING_PHYSICIAN" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUESTING_PHYSICIAN" msprop:Generator_ColumnVarNameInTable="columnREQUESTING_PHYSICIAN" msprop:Generator_ColumnPropNameInRow="REQUESTING_PHYSICIAN" msprop:Generator_ColumnPropNameInTable="REQUESTING_PHYSICIANColumn" msprop:Generator_UserColumnName="REQUESTING_PHYSICIAN" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUESTING_SERVICE" msprop:Generator_ColumnVarNameInTable="columnREQUESTING_SERVICE" msprop:Generator_ColumnPropNameInRow="REQUESTING_SERVICE" msprop:Generator_ColumnPropNameInTable="REQUESTING_SERVICEColumn" msprop:Generator_UserColumnName="REQUESTING_SERVICE" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUESTED_PROCEDURE_CODE" msprop:Generator_ColumnVarNameInTable="columnREQUESTED_PROCEDURE_CODE" msprop:Generator_ColumnPropNameInRow="REQUESTED_PROCEDURE_CODE" msprop:Generator_ColumnPropNameInTable="REQUESTED_PROCEDURE_CODEColumn" msprop:Generator_UserColumnName="REQUESTED_PROCEDURE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="ORIG_READER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnORIG_READER" msprop:Generator_ColumnPropNameInRow="ORIG_READER" msprop:Generator_ColumnPropNameInTable="ORIG_READERColumn" msprop:Generator_UserColumnName="ORIG_READER" type="xs:string" minOccurs="0" />
+              <xs:element name="INSTITUTIONAL_DEPARTMENT_NAME" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnINSTITUTIONAL_DEPARTMENT_NAME" msprop:Generator_ColumnPropNameInRow="INSTITUTIONAL_DEPARTMENT_NAME" msprop:Generator_ColumnPropNameInTable="INSTITUTIONAL_DEPARTMENT_NAMEColumn" msprop:Generator_UserColumnName="INSTITUTIONAL_DEPARTMENT_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RadAlternateIDs" msprop:Generator_TableClassName="RadAlternateIDsDataTable" msprop:Generator_TableVarName="tableRadAlternateIDs" msprop:Generator_TablePropName="RadAlternateIDs" msprop:Generator_RowDeletingName="RadAlternateIDsRowDeleting" msprop:Generator_RowChangingName="RadAlternateIDsRowChanging" msprop:Generator_RowEvHandlerName="RadAlternateIDsRowChangeEventHandler" msprop:Generator_RowDeletedName="RadAlternateIDsRowDeleted" msprop:Generator_UserTableName="RadAlternateIDs" msprop:Generator_RowChangedName="RadAlternateIDsRowChanged" msprop:Generator_RowEvArgName="RadAlternateIDsRowChangeEvent" msprop:Generator_RowClassName="RadAlternateIDsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InitReadingRad" msprop:Generator_ColumnVarNameInTable="columnInitReadingRad" msprop:Generator_ColumnPropNameInRow="InitReadingRad" msprop:Generator_ColumnPropNameInTable="InitReadingRadColumn" msprop:Generator_UserColumnName="InitReadingRad" type="xs:string" />
+              <xs:element name="PACSID" msprop:Generator_ColumnVarNameInTable="columnPACSID" msprop:Generator_ColumnPropNameInRow="PACSID" msprop:Generator_ColumnPropNameInTable="PACSIDColumn" msprop:Generator_UserColumnName="PACSID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DOSR_STUDY" />
+      <xs:field xpath="mstns:STUDY_REF" />
+    </xs:unique>
+    <xs:unique name="RadAlternateIDs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RadAlternateIDs" />
+      <xs:field xpath="mstns:InitReadingRad" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

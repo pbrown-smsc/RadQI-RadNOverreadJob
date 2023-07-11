@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="OutsideDocsDataSet" targetNamespace="http://www.tempuri.org/OutsideDocsDataSet.xsd" xmlns:mstns="http://www.tempuri.org/OutsideDocsDataSet.xsd" xmlns="http://www.tempuri.org/OutsideDocsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="OutsideDocsDataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="OutsideDocs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="PACSID" type="xs:string" />
+              <xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentEmployee" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="Email_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Sub-division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OutsideDocs" />
+      <xs:field xpath="mstns:PACSID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

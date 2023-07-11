@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="myResponseDataSet" targetNamespace="http://www.tempuri.org/myResponseDataSet.xsd" xmlns:mstns="http://www.tempuri.org/myResponseDataSet.xsd" xmlns="http://www.tempuri.org/myResponseDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="RadQAConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RadQAConnectionString (MySettings)" PropertyReference="ApplicationSettings.EMMCRADQaParse.My.MySettings.GlobalReference.Default.RadQAConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="myResponseDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="myResponseDataSet" msprop:Generator_UserDSName="myResponseDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QAResponses" msprop:Generator_TableClassName="QAResponsesDataTable" msprop:Generator_TableVarName="tableQAResponses" msprop:Generator_RowChangedName="QAResponsesRowChanged" msprop:Generator_TablePropName="QAResponses" msprop:Generator_RowDeletingName="QAResponsesRowDeleting" msprop:Generator_RowChangingName="QAResponsesRowChanging" msprop:Generator_RowEvHandlerName="QAResponsesRowChangeEventHandler" msprop:Generator_RowDeletedName="QAResponsesRowDeleted" msprop:Generator_RowClassName="QAResponsesRow" msprop:Generator_UserTableName="QAResponses" msprop:Generator_RowEvArgName="QAResponsesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SMGID" msprop:Generator_ColumnVarNameInTable="columnSMGID" msprop:Generator_ColumnPropNameInRow="SMGID" msprop:Generator_ColumnPropNameInTable="SMGIDColumn" msprop:Generator_UserColumnName="SMGID" type="xs:int" />
+              <xs:element name="InitialReader" msprop:Generator_ColumnVarNameInTable="columnInitialReader" msprop:Generator_ColumnPropNameInRow="InitialReader" msprop:Generator_ColumnPropNameInTable="InitialReaderColumn" msprop:Generator_UserColumnName="InitialReader" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryAgree" msprop:Generator_ColumnVarNameInTable="columnPrimaryAgree" msprop:Generator_ColumnPropNameInRow="PrimaryAgree" msprop:Generator_ColumnPropNameInTable="PrimaryAgreeColumn" msprop:Generator_UserColumnName="PrimaryAgree" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryAltGrade" msprop:Generator_ColumnVarNameInTable="columnPrimaryAltGrade" msprop:Generator_ColumnPropNameInRow="PrimaryAltGrade" msprop:Generator_ColumnPropNameInTable="PrimaryAltGradeColumn" msprop:Generator_UserColumnName="PrimaryAltGrade" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryComments" msprop:Generator_ColumnVarNameInTable="columnPrimaryComments" msprop:Generator_ColumnPropNameInRow="PrimaryComments" msprop:Generator_ColumnPropNameInTable="PrimaryCommentsColumn" msprop:Generator_UserColumnName="PrimaryComments" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryStamp" msprop:Generator_ColumnVarNameInTable="columnPrimaryStamp" msprop:Generator_ColumnPropNameInRow="PrimaryStamp" msprop:Generator_ColumnPropNameInTable="PrimaryStampColumn" msprop:Generator_UserColumnName="PrimaryStamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DivisionDirector" msprop:Generator_ColumnVarNameInTable="columnDivisionDirector" msprop:Generator_ColumnPropNameInRow="DivisionDirector" msprop:Generator_ColumnPropNameInTable="DivisionDirectorColumn" msprop:Generator_UserColumnName="DivisionDirector" type="xs:string" minOccurs="0" />
+              <xs:element name="DivDirAltGrade" msprop:Generator_ColumnVarNameInTable="columnDivDirAltGrade" msprop:Generator_ColumnPropNameInRow="DivDirAltGrade" msprop:Generator_ColumnPropNameInTable="DivDirAltGradeColumn" msprop:Generator_UserColumnName="DivDirAltGrade" type="xs:string" minOccurs="0" />
+              <xs:element name="DivDirComments" msprop:Generator_ColumnVarNameInTable="columnDivDirComments" msprop:Generator_ColumnPropNameInRow="DivDirComments" msprop:Generator_ColumnPropNameInTable="DivDirCommentsColumn" msprop:Generator_UserColumnName="DivDirComments" type="xs:string" minOccurs="0" />
+              <xs:element name="DivDirLate" msprop:Generator_ColumnVarNameInTable="columnDivDirLate" msprop:Generator_ColumnPropNameInRow="DivDirLate" msprop:Generator_ColumnPropNameInTable="DivDirLateColumn" msprop:Generator_UserColumnName="DivDirLate" type="xs:short" minOccurs="0" />
+              <xs:element name="DivDirStamp" msprop:Generator_ColumnVarNameInTable="columnDivDirStamp" msprop:Generator_ColumnPropNameInRow="DivDirStamp" msprop:Generator_ColumnPropNameInTable="DivDirStampColumn" msprop:Generator_UserColumnName="DivDirStamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PrimaryAltClinSignifScore" msprop:Generator_ColumnVarNameInTable="columnPrimaryAltClinSignifScore" msprop:Generator_ColumnPropNameInRow="PrimaryAltClinSignifScore" msprop:Generator_ColumnPropNameInTable="PrimaryAltClinSignifScoreColumn" msprop:Generator_UserColumnName="PrimaryAltClinSignifScore" type="xs:string" minOccurs="0" />
+              <xs:element name="DivDirAltClinSignifScore" msprop:Generator_ColumnVarNameInTable="columnDivDirAltClinSignifScore" msprop:Generator_ColumnPropNameInRow="DivDirAltClinSignifScore" msprop:Generator_ColumnPropNameInTable="DivDirAltClinSignifScoreColumn" msprop:Generator_UserColumnName="DivDirAltClinSignifScore" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryDiscrepancyCognitive" msprop:Generator_ColumnVarNameInTable="columnPrimaryDiscrepancyCognitive" msprop:Generator_ColumnPropNameInRow="PrimaryDiscrepancyCognitive" msprop:Generator_ColumnPropNameInTable="PrimaryDiscrepancyCognitiveColumn" msprop:Generator_UserColumnName="PrimaryDiscrepancyCognitive" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryDiscrepancyCommun" msprop:Generator_ColumnVarNameInTable="columnPrimaryDiscrepancyCommun" msprop:Generator_ColumnPropNameInRow="PrimaryDiscrepancyCommun" msprop:Generator_ColumnPropNameInTable="PrimaryDiscrepancyCommunColumn" msprop:Generator_UserColumnName="PrimaryDiscrepancyCommun" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DivDirDiscrepancyCognitive" msprop:Generator_ColumnVarNameInTable="columnDivDirDiscrepancyCognitive" msprop:Generator_ColumnPropNameInRow="DivDirDiscrepancyCognitive" msprop:Generator_ColumnPropNameInTable="DivDirDiscrepancyCognitiveColumn" msprop:Generator_UserColumnName="DivDirDiscrepancyCognitive" type="xs:string" minOccurs="0" />
+              <xs:element name="DivDirDiscrepancyCommun" msprop:Generator_ColumnVarNameInTable="columnDivDirDiscrepancyCommun" msprop:Generator_ColumnPropNameInRow="DivDirDiscrepancyCommun" msprop:Generator_ColumnPropNameInTable="DivDirDiscrepancyCommunColumn" msprop:Generator_UserColumnName="DivDirDiscrepancyCommun" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DivDirDiscrepancySyntax" msprop:Generator_ColumnVarNameInTable="columnDivDirDiscrepancySyntax" msprop:Generator_ColumnPropNameInRow="DivDirDiscrepancySyntax" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInTable="DivDirDiscrepancySyntaxColumn" msprop:Generator_UserColumnName="DivDirDiscrepancySyntax" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryDiscrepancySyntax" msprop:Generator_ColumnVarNameInTable="columnPrimaryDiscrepancySyntax" msprop:Generator_ColumnPropNameInRow="PrimaryDiscrepancySyntax" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInTable="PrimaryDiscrepancySyntaxColumn" msprop:Generator_UserColumnName="PrimaryDiscrepancySyntax" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:QAResponses" />
+      <xs:field xpath="mstns:SMGID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="HREmpsDataSet" targetNamespace="http://www.tempuri.org/HREmpsDataSet.xsd" xmlns:mstns="http://www.tempuri.org/HREmpsDataSet.xsd"
+	xmlns="http://www.tempuri.org/HREmpsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="HREmpsDataSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Employees">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" type="xs:int" />
+							<xs:element name="PACSID" type="xs:string" minOccurs="0" />
+							<xs:element name="LastName" type="xs:string" minOccurs="0" />
+							<xs:element name="FirstName" type="xs:string" minOccurs="0" />
+							<xs:element name="FullName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Current_x0020_Employee" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Email_x0020_Address" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="Sub-division" type="xs:string" minOccurs="0" />
+							<xs:element name="RevealOverreader" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
